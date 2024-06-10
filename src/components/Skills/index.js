@@ -1,7 +1,7 @@
 import './index.scss'
 import React, { useEffect, useState } from "react";
 import TagCloud from "TagCloud";
-import AnimatedLetters from '../AnimateLetters'
+import AnimatedLetters from '../AnimateLetters';
 
 
 
@@ -30,7 +30,7 @@ const Skills = () => {
         const options = {
           radius: 350,
           maxSpeed: "fast",
-          initSpeed: "5",
+          initSpeed: "fast",
           keep: true,
         };
 

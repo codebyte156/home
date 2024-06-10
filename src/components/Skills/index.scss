@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
 
 .text-shpere {
-    position: right;
+    position: relative;
     top: 0;
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center;
     background: #022c43;
 }
@@ -35,5 +35,5 @@
 
 
 .about-page {
-    margin: 20;
+    margin: 20px;
 }
