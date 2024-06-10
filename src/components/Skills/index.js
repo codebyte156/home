@@ -1,6 +1,6 @@
 import './index.scss'
 import React, { useEffect, useState } from "react";
-import TagCloud from "TagCloud";
+import TagCloud from 'TagCloud';
 import AnimatedLetters from '../AnimateLetters';
 
 
