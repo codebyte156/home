@@ -50,7 +50,6 @@ const Skills = () => {
       <>
 
         <div className="text-shpere">
-          {/* span tag className must be "tagcloud"  */}
           <span className="tagcloud"></span>
         </div>
         <div className="container about-page">

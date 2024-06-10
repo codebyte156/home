@@ -9,15 +9,17 @@ const Dashboard = () => {
     const auth = getAuth();
 
     useEffect(() => {
-        onAuthStateChanged(auth, (user) => {
+        const unsubscribe = onAuthStateChanged(auth, (user) => {
             if(user) {
                 setUser(user);
             } else {
                 setUser(null);
             }
-        })
-    }, []);
+        });
 
+        // Clean up the subscription on unmount
+        return () => unsubscribe();
+    }, [auth]); // Add auth to the dependency array
 
     return (
        <div>
