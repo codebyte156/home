@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.0c5a1c8d.css",
+    "main.js": "/home/static/js/main.19262715.js",
+    "static/js/453.bb257cf5.chunk.js": "/home/static/js/453.bb257cf5.chunk.js",
+    "static/media/rahul.jpeg": "/home/static/media/rahul.1def8aed66edbe41e3b2.jpeg",
+    "static/media/logo-r.png": "/home/static/media/logo-r.073f4327bf23adff6054.png",
+    "static/media/helvetica-neu.ttf": "/home/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/logo_sub.png": "/home/static/media/logo_sub.82cb6b54fb22668bc231.png",
+    "static/media/la-belle-aurore-latin-400-normal.woff": "/home/static/media/la-belle-aurore-latin-400-normal.9059484ca8368c9483d0.woff",
+    "static/media/LaBelleAurore.woff2": "/home/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/la-belle-aurore-latin-400-normal.woff2": "/home/static/media/la-belle-aurore-latin-400-normal.2a89aebf652f3b0aae99.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/home/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/home/index.html",
+    "main.0c5a1c8d.css.map": "/home/static/css/main.0c5a1c8d.css.map",
+    "main.19262715.js.map": "/home/static/js/main.19262715.js.map",
+    "453.bb257cf5.chunk.js.map": "/home/static/js/453.bb257cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c5a1c8d.css",
+    "static/js/main.19262715.js"
+  ]
+}
