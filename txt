@@ -1,0 +1,296 @@
+
+/*
+ STARS PATTERN IN THE BACK OF CUBE SPINNER
+<div class="stage">
+          <div class="stage-cube-cont">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+            <div class="cubespinner">
+              <div class="face1">
+                <i class="fab fa-angular"></i>
+              </div>
+              <div class="face2">
+                <i class="fab fa-html5"></i>
+              </div>
+              <div class="face3">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <div class="face4">
+                <i class="fab fa-react"></i>
+              </div>
+              <div class="face5">
+                <i class="fab fa-js-square"></i>
+              </div>
+              <div class="face6">
+                <i class="fab fa-git-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// "homepage": "https://codebyte156.github.io/portfolio",
+
+
+    // "predeploy": "npm run build",
+    // "deploy": "gh-pages -d build",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+import React from 'react';
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import { Particles } from 'react-tsparticles'; 
+import { loadFull } from 'tsparticles'; 
+import AnimatedLetters from '../AnimateLetters'
+import Logo from '../Logo'
+import './index.scss'
+
+
+
+
+const Home = () => {
+  const [letterClass, setLetterClass] = useState('text-animate')
+
+  const nameArray = [' ','R', 'a', 'h', 'u', 'l', ' ', 'R', 'a', 'u', 't' ]
+  const [text] = useTypewriter({
+    words: [' Full Stack Developer', ' Freelancer', ' Cloud Specialist', ' Programmer'],
+    loop: {},
+    typeSpeed: '120',
+  });
+
+
+
+  return (
+    <>
+      <div className="container home-page">
+        <div className="text-zone">
+          <h1>
+            <span className={letterClass}>H</span>
+            <span className={`${letterClass} _12`}>i,</span>
+            <br />
+            <span className={`${letterClass} _13`}> I</span>
+            <span className={`${letterClass} _14`}>'m </span>
+
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={nameArray}
+              idx={15}
+            />
+            <br />
+          </h1>
+
+          <h3 style={{margin: '10px', fontWeight: 'normal'}}>
+
+          I'm a 
+          <span style={{fontWeight: 'bold', color: 'yellow'}}>
+              {text}
+          </span>
+          <span style={{color: 'yellow'}}>
+              <Cursor cursorStyle='|' /> 
+          </span>
+          </h3>
+          <h2>Full Stack Developer | Freelancer | Cloud Specialist | Programmer</h2>
+          <Link to="/contact" className="flat-button">
+            CONTACT ME
+          </Link>
+        </div>
+        <Logo />
+        
+      </div>
+
+      
+    </>
+  )
+}
+
+export default Home
+
+
+
+
+
+
+
+
+
+
+*/
+
+/*
+
+import { Particles } from 'react-tsparticles'; 
+import { loadFull } from 'tsparticles'; 
+import React, { useCallback} from 'react';
+import { Fullscreen } from '@mui/icons-material';
+
+
+const ParticlesContainer = () => {
+
+    const particlesInit = useCallback(async (engine) => {
+        await loadFull(engine);
+    }, []);
+
+    const particlesLoaded = useCallback(async () => {}, []);
+
+    return <Particles className='w-full h-full absolute translate-z-0' 
+    id = 'tsparticles' init={particlesInit} loaded={particlesLoaded}
+    options = {{
+        fullscreen: { enable: false },
+        background: {
+            color: {
+                value: '',
+            },
+        },
+        fpsLimit: 120,
+        interactivity: {
+            events: {
+                onClick: {
+                    enable: false,
+                    mode: 'push,'
+                },
+                onHover: {
+                    enable: true,
+                    mode: 'repulse'
+
+                },
+                resize: true,
+            },
+            modes: {
+                push: {
+                    quantity: 90
+                },
+                repulse: {
+                    distance: 200,
+                    duration: 0.4,
+
+                }
+            }
+        },
+        particles: {
+            color: {
+                value: '#e68e2e'
+            },
+            links:{
+                color: '#f5d393',
+                distance: 150,
+                enable: true,
+                opacity: 0.5,
+                width: 1
+            },
+            collisions: {
+                enable: true,
+            },
+            move: {
+                directions: 'none',
+                enable: true,
+                outModes: {
+                    default: 'bounce'
+                },
+                random: false,
+                speed: 1,
+                straight: false
+            },
+            number: {
+                density: {
+                    enabled: true,
+                    area: 800
+
+                },
+                value: 80
+            },
+            opacity: {
+                value: 0.5,
+
+            },
+            shape: {
+                type: 'circle'
+
+            },
+            size: {
+                value: { min: 1, max: 5 }
+            },
+        },
+        detectRetina: true,
+    }}
+    
+    />;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
