@@ -23,13 +23,15 @@ section {
 
 
 @media screen and (max-width: 1200px) {
-    
-  }
-
-
-
-
-
-
+    .home-img img {
+        margin-top: 10px;
+        margin-left: 56px; /* Adjust margin-left as needed */
+        position: relative;
+        border-radius: 50%;
+        width: 70vw;
+        cursor: pointer;
+        transition: 0.4s ease-in-out;
+    }
+}
 
 

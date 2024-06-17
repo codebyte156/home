@@ -156,7 +156,7 @@
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) and (max-height: 1200px) {
     .tags,
     .home-page h1:before,
     .home-page h1:after {
@@ -179,22 +179,17 @@
     }
     
     .logo-container {
-        position: relative;
-        width: 100px;
-        height: auto;
-        top: 50px;
-        right: 10;
-        box-sizing: border-box;
-        margin: auto;
-        left: 0;
+        display: none; /* Hide logo container for mobile view */
     }
     
-    .logo-container svg {
-        position: absolute;
-        top: auto;
-        right: auto;
-        bottom: auto;
-        left: 0;
-        margin: auto;
+    /* Ensure content fits without scrolling */
+    body {
+        overflow: hidden;
+    }
+    
+    /* Limit maximum height of the page */
+    section {
+        height: 100vh;
+        overflow: hidden;
     }
 }
