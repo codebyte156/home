@@ -18,7 +18,7 @@ const Home = () => {
   
 
   const [text] = useTypewriter({
-    words: [' Full Stack Developer', ' Freelancer', ' Cloud Specialist', ' Programmer'],
+    words: [' Web Developer', ' Freelancer', ' Cloud Specialist', ' Programmer'],
     loop: {},
     typeSpeed: '120',
   });
@@ -62,6 +62,7 @@ const Home = () => {
               <Cursor cursorStyle='|' /> 
           </span>
           </h3>
+          
           <h2>Full Stack Developer | Freelancer | Cloud Specialist | Programmer</h2>
           <Link to="/home/contact" className="flat-button">
             CONTACT ME

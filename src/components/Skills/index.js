@@ -10,7 +10,9 @@ const Skills = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     useEffect(() => {
       return () => {
-        const container = ".tagcloud";
+        const TagCloud = require('TagCloud');
+
+        const container = '.tagcloud';
         const texts = [
           "HTML",
           "CSS",
@@ -26,7 +28,6 @@ const Skills = () => {
           "Ansible",
           "GITHUB",
         ];
-  
         const options = {
           radius: 350,
           maxSpeed: "fast",
