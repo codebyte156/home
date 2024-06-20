@@ -1,7 +1,7 @@
 import './index.scss'
 import React, { useEffect, useState } from "react";
 import AnimatedLetters from '../AnimateLetters';
-import TagCloud from 'TagCloud';
+
 
 
 const Skills = () => {
